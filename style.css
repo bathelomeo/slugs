@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.slug{
+    display: flex;
+}
+.scard{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+.scard .imgBxs{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background: #f00;
+    border-radius: 15px;
+    /* background: ;
+    background-size: cover; image stuff*/
+}
+.scard .imgBxs::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #fff;
+}
+.scard .imgBxs::after{
+    content: '';
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #fff;
+}
+.scard .contents{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: #232949;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    padding: 0 35px;
+}
+.scard .contents .price{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    height: 80px;
+    width: 50%;
+    background: #232949;
+    border-top: 10px solid #fff;
+    border-right: 10px solid #fff;
+    border-top-right-radius: 25px;
+}
+.scard .contents ul{
+    color: #fff;
+}
+.scard .contents .price::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px -10px 0 #fff;
+}
+.scard .contents .price::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #232949;
+}
+.scard .contents .price a {
+    position: relative;
+    background: #fff;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    display: block;
+    border-radius: 7px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* slugs2 */
+.scard2{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+.scard2 .imgBxs2{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background: #f00;
+    border-radius: 15px;
+    /* background: ;
+    background-size: cover; image stuff*/
+}
+.scard2 .imgBxs2::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #fff;
+}
+.scard2 .imgBxs2::after{
+    content: '';
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #fff;
+}
+.scard2 .contents2{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: #232949;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    padding: 0 35px;
+}
+.scard2 .contents2 .price2{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    height: 80px;
+    width: 50%;
+    background: #232949;
+    border-top: 10px solid #fff;
+    border-right: 10px solid #fff;
+    border-top-right-radius: 25px;
+}
+.scard2 .contents2 ul{
+    color: #fff;
+}
+.scard2 .contents2 .price2::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px -10px 0 #fff;
+}
+.scard2 .contents2 .price2::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #232949;
+}
+.scard2 .contents2 .price2 a {
+    position: relative;
+    background: #fff;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    display: block;
+    border-radius: 7px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+}
